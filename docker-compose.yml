@@ -1,0 +1,6 @@
+version: "2"
+services:
+  some_server:
+    build: ./env-file-test
+    environment:
+     - DEMO_VAR=${DEMO_VAR}
